@@ -1,15 +1,13 @@
-%matplotlib inline
-
 import pandas as pd
-import matplotlib.pyplot as plt
 
-df = pd.read_csv("input/bank.csv")
+df = pd.read_csv('input/reviews.csv')
 
-X = df.iloc[:, :-1].values
-y = df.iloc[:, -1].values
 
-X_0 = X[y==0]
-X_1 = X[y==1]
+from sklearn.feature_extraction.text import CountVectorizer
+cv = CountVectorizer()
+
+X = cv.fit_transform(df['text'])
+y = df.iloc[:, -1].values()
 
 from sklearn.model_selection import train_test_split
 
@@ -22,3 +20,4 @@ clf = LogisticRegression(C=1000)
 clf.fit(X_train, y_train)
 
 clf.score(X_test, y_test)
+

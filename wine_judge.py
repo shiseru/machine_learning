@@ -30,3 +30,4 @@ lr.fit(X_train, y_train)
 
 lr.score(X_test, y_test)
 
+clf.predict([[[20, ]])
