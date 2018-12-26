@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf88a9fe-4d24-41c0-9dd6-2c2f25eaba64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/judge_income.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../freee/find_app/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/../freee/find_app/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../freee/find_app/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../freee/find_app/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../freee/find_app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../freee/find_app/README.md" afterDir="false" />
@@ -26,7 +25,6 @@
       <change beforePath="$PROJECT_DIR$/../freee/find_app/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/../freee/find_app/app/views/layouts/application.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../freee/find_app/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../freee/find_app/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../freee/find_app/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../freee/find_app/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pyq/wine_judge.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyq/wine_judge.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,22 +49,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="14" />
+          <entry key="py" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="14" />
+          <entry key="Python" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="5765" />
+          <entry key="py" value="6306" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="5765" />
+          <entry key="Python" value="6306" />
         </counts>
       </usages-collector>
     </session>
@@ -139,14 +137,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/remove_dimension.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+            <state relative-caret-position="315">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
               <folding>
                 <element signature="e#19#38#0" expanded="true" />
                 <marker date="1545789433360" expanded="true" signature="472:477" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cross_validation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#19#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -169,15 +178,6 @@
               <folding>
                 <element signature="e#19#50#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/categorize_feature.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="57" column="64" lean-forward="true" selection-start-line="57" selection-start-column="64" selection-end-line="57" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -211,6 +211,7 @@
         <option value="$PROJECT_DIR$/judge_income.py" />
         <option value="$PROJECT_DIR$/claster.py" />
         <option value="$PROJECT_DIR$/remove_dimension.py" />
+        <option value="$PROJECT_DIR$/cross_validation.py" />
       </list>
     </option>
   </component>
@@ -222,7 +223,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="917" />
-    <option name="y" value="28" />
+    <option name="y" value="27" />
     <option name="width" value="1209" />
     <option name="height" value="987" />
   </component>
@@ -328,7 +329,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="917" y="28" width="1209" height="987" extended-state="0" />
+    <frame x="917" y="27" width="1209" height="987" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49666667" visible="true" weight="0.0" />
@@ -344,8 +345,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32960895" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50042844" side_tool="true" visible="true" weight="0.32960895" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49957156" visible="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32960895" />
       <window_info anchor="right" x="0" y="0" width="252" height="787" id="Documentation" side_tool="true" visible="true" weight="0.32990575" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -476,11 +477,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/remove_dimension.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        <state relative-caret-position="315">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
           <folding>
             <element signature="e#19#38#0" expanded="true" />
             <marker date="1545789433360" expanded="true" signature="472:477" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cross_validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#19#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
